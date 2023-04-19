@@ -1,0 +1,10 @@
+INFO:root:all data: 1898
+INFO:root:train data: 1518
+INFO:root:test data: 380
+INFO:root:Train epoch 0, loss: 0.6047, val_loss: 0.5810, val_acc: 0.7053, val_auroc: 0.6511
+INFO:root:Train epoch 1, loss: 0.5732, val_loss: 0.5901, val_acc: 0.7053, val_auroc: 0.6728
+INFO:root:Train epoch 2, loss: 0.5608, val_loss: 0.5639, val_acc: 0.7053, val_auroc: 0.6679
+INFO:root:Train epoch 3, loss: 0.5489, val_loss: 0.5671, val_acc: 0.7053, val_auroc: 0.6977
+INFO:root:Train epoch 4, loss: 0.5410, val_loss: 0.5639, val_acc: 0.7289, val_auroc: 0.7279
+INFO:root:Train epoch 5, loss: 0.5354, val_loss: 0.5351, val_acc: 0.7289, val_auroc: 0.7431
+INFO:root:Train epoch 6, loss: 0.5223, val_loss: 0.5386, val_acc: 0.7395, val_auroc: 0.7417

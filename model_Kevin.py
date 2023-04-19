@@ -1,0 +1,76 @@
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+from torch_geometric.nn import GATConv, global_max_pool
+from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
+
+class GraphConv(nn.Module):
+    def __init__(self, num_embeddings):
+        super().__init__()
+        self.embed = nn.Embedding(num_embeddings, embedding_dim=64)
+        self.gat1 = GATConv(64, 128, 1)
+        self.gat2 = GATConv(128, 64, 1)
+
+    def forward(self, data):
+        x, edge_index, batch = data.x, data.edge_index, data.batch
+        edge_attr = data.edge_attr.to(torch.float)
+        x = self.embed(x)
+        x = self.gat1(x, edge_index, edge_attr)
+        x = F.relu(x)
+        x = self.gat2(x, edge_index, edge_attr)
+        x = global_max_pool(x, batch)
+        return x
+
+class SmilesNet(nn.Module):
+    def __init__(self, batch_size=1):
+        super().__init__()
+        self.batch_size = batch_size
+        self.embed = nn.Embedding(41, 64, padding_idx=0)
+        self.lstm = nn.LSTM(64, 64, batch_first=True, bidirectional=True)
+        self.fc = nn.Linear(128, 64)
+
+    def forward(self, x, s):
+        x = self.embed(x)
+        x = pack_padded_sequence(x, s, batch_first=True, enforce_sorted=False)
+        out, (h, c) = self.lstm(x, None)
+        out, _ = pad_packed_sequence(out, batch_first=True)
+        y = self.fc(out[:, -1, :])
+        return y
+
+class ProtacModel(nn.Module):
+    def __init__(self,
+                 ligase_pocket_model,
+                 target_pocket_model,
+                 PROTAC_model):
+
+        super().__init__()
+        self.ligase_pocket_model = ligase_pocket_model
+        self.target_pocket_model = target_pocket_model
+        self.PROTAC_model = PROTAC_model
+        self.fc1 = nn.Linear(64 * 3, 64)
+        self.relu = nn.LeakyReLU(negative_slope=0.01)
+        self.fc2 = nn.Linear(64, 2)
+        self.attention = nn.MultiheadAttention(64, 1, batch_first=True)
+        self.Q = nn.Linear(64, 64)
+        self.K = nn.Linear(64, 64)
+        self.V = nn.Linear(64, 64)
+
+    def forward(self,
+                ligase_pocket,
+                target_pocket,
+                PROTAC,):
+        v_0 = self.ligase_pocket_model(ligase_pocket)
+        v_0 = torch.unsqueeze(v_0, 1)
+        v_1 = self.target_pocket_model(target_pocket)
+        v_1 = torch.unsqueeze(v_1, 1)
+        v_2 = self.PROTAC_model(PROTAC)
+        v_2 = torch.unsqueeze(v_2, 1)
+        v_c = torch.cat((v_0, v_1, v_2), 1)
+        v_a, a_w = self.attention(self.Q(v_c), self.K(v_c), self.V(v_c))
+        a, b, c = v_a.shape
+        v_a = torch.reshape(v_a, (a, b * c))
+        v_f = self.relu(self.fc1(v_a))
+        v_f = self.fc2(v_f)
+        return v_f
+
+

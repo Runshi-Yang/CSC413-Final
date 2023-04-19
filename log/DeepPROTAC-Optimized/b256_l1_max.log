@@ -1,0 +1,203 @@
+INFO:root:all data: 949
+INFO:root:train data: 759
+INFO:root:test data: 190
+INFO:root:Train epoch 0, loss: 0.0025
+INFO:root:Valid epoch 0 loss:0.6430689692497253, acc: 0.6894736842105263, auroc: 0.5176607581834649
+INFO:root:Train epoch 1, loss: 0.0024
+INFO:root:Valid epoch 1 loss:0.6245829463005066, acc: 0.6894736842105263, auroc: 0.6079052917583129
+INFO:root:Train epoch 2, loss: 0.0023
+INFO:root:Valid epoch 2 loss:0.6102445125579834, acc: 0.6894736842105263, auroc: 0.6211670332513909
+INFO:root:Train epoch 3, loss: 0.0023
+INFO:root:Valid epoch 3 loss:0.6048352718353271, acc: 0.6894736842105263, auroc: 0.6349463061198085
+INFO:root:Train epoch 4, loss: 0.0023
+INFO:root:Valid epoch 4 loss:0.6033592224121094, acc: 0.6894736842105263, auroc: 0.6446500194074266
+INFO:root:Train epoch 5, loss: 0.0022
+INFO:root:Valid epoch 5 loss:0.6015990972518921, acc: 0.6894736842105263, auroc: 0.6491784189416483
+INFO:root:Train epoch 6, loss: 0.0022
+INFO:root:Valid epoch 6 loss:0.5909168720245361, acc: 0.6894736842105263, auroc: 0.6531892871005305
+INFO:root:Train epoch 7, loss: 0.0022
+INFO:root:Valid epoch 7 loss:0.5864813327789307, acc: 0.6894736842105263, auroc: 0.6587527493854315
+INFO:root:Train epoch 8, loss: 0.0022
+INFO:root:Valid epoch 8 loss:0.5847809314727783, acc: 0.6894736842105263, auroc: 0.6597878121361107
+INFO:root:Train epoch 9, loss: 0.0022
+INFO:root:Valid epoch 9 loss:0.5818271636962891, acc: 0.6894736842105263, auroc: 0.6641868288264976
+INFO:root:Train epoch 10, loss: 0.0022
+INFO:root:Valid epoch 10 loss:0.5775866508483887, acc: 0.6894736842105263, auroc: 0.6667744857031958
+INFO:root:Train epoch 11, loss: 0.0021
+INFO:root:Valid epoch 11 loss:0.5744309425354004, acc: 0.7368421052631579, auroc: 0.6773838788976582
+INFO:root:Train epoch 12, loss: 0.0021
+INFO:root:Valid epoch 12 loss:0.573552668094635, acc: 0.7368421052631579, auroc: 0.6812653642127054
+INFO:root:Train epoch 13, loss: 0.0021
+INFO:root:Valid epoch 13 loss:0.5705704689025879, acc: 0.7368421052631579, auroc: 0.6879932720921206
+INFO:root:Train epoch 14, loss: 0.0021
+INFO:root:Valid epoch 14 loss:0.5671448707580566, acc: 0.7263157894736842, auroc: 0.6913572260318281
+INFO:root:Train epoch 15, loss: 0.0021
+INFO:root:Valid epoch 15 loss:0.5646750330924988, acc: 0.7263157894736842, auroc: 0.6986673567085004
+INFO:root:Train epoch 16, loss: 0.0021
+INFO:root:Valid epoch 16 loss:0.5640661716461182, acc: 0.7052631578947368, auroc: 0.7076594643550266
+INFO:root:Train epoch 17, loss: 0.0021
+INFO:root:Valid epoch 17 loss:0.560922384262085, acc: 0.7210526315789474, auroc: 0.7068831672920172
+INFO:root:Train epoch 18, loss: 0.0021
+INFO:root:Valid epoch 18 loss:0.5587264895439148, acc: 0.6947368421052632, auroc: 0.7116703325139087
+INFO:root:Train epoch 19, loss: 0.0021
+INFO:root:Valid epoch 19 loss:0.560927152633667, acc: 0.7052631578947368, auroc: 0.7137404580152672
+INFO:root:Train epoch 20, loss: 0.0021
+INFO:root:Valid epoch 20 loss:0.5560408234596252, acc: 0.7052631578947368, auroc: 0.7146461379221115
+INFO:root:Train epoch 21, loss: 0.0021
+INFO:root:Valid epoch 21 loss:0.5547305345535278, acc: 0.7052631578947368, auroc: 0.7181394747056541
+INFO:root:Train epoch 22, loss: 0.0021
+INFO:root:Valid epoch 22 loss:0.5550721287727356, acc: 0.7, auroc: 0.7159399663604605
+INFO:root:Train epoch 23, loss: 0.0020
+INFO:root:Valid epoch 23 loss:0.5515627264976501, acc: 0.7052631578947368, auroc: 0.7235735541467201
+INFO:root:Train epoch 24, loss: 0.0020
+INFO:root:Valid epoch 24 loss:0.5498424768447876, acc: 0.7, auroc: 0.7300426963384655
+INFO:root:Train epoch 25, loss: 0.0020
+INFO:root:Valid epoch 25 loss:0.5480782985687256, acc: 0.7052631578947368, auroc: 0.7323715875274939
+INFO:root:Train epoch 26, loss: 0.0020
+INFO:root:Valid epoch 26 loss:0.5455870628356934, acc: 0.7105263157894737, auroc: 0.7353473929356967
+INFO:root:Train epoch 27, loss: 0.0020
+INFO:root:Valid epoch 27 loss:0.544102132320404, acc: 0.7105263157894737, auroc: 0.7401345581575883
+INFO:root:Train epoch 28, loss: 0.0020
+INFO:root:Valid epoch 28 loss:0.5420078635215759, acc: 0.7105263157894737, auroc: 0.7454392547548194
+INFO:root:Train epoch 29, loss: 0.0020
+INFO:root:Valid epoch 29 loss:0.5395742058753967, acc: 0.7105263157894737, auroc: 0.7444041920041403
+INFO:root:Train epoch 30, loss: 0.0020
+INFO:root:Valid epoch 30 loss:0.5399465560913086, acc: 0.7157894736842105, auroc: 0.7489972829602795
+INFO:root:Train epoch 31, loss: 0.0020
+INFO:root:Valid epoch 31 loss:0.5357288718223572, acc: 0.7105263157894737, auroc: 0.7517143226808125
+INFO:root:Train epoch 32, loss: 0.0020
+INFO:root:Valid epoch 32 loss:0.5331201553344727, acc: 0.7105263157894737, auroc: 0.75533704230819
+INFO:root:Train epoch 33, loss: 0.0020
+INFO:root:Valid epoch 33 loss:0.5372030735015869, acc: 0.7157894736842105, auroc: 0.758054082028723
+INFO:root:Train epoch 34, loss: 0.0020
+INFO:root:Valid epoch 34 loss:0.5353488326072693, acc: 0.7315789473684211, auroc: 0.758183464872558
+INFO:root:Train epoch 35, loss: 0.0020
+INFO:root:Valid epoch 35 loss:0.5313450694084167, acc: 0.7157894736842105, auroc: 0.7606417389054212
+INFO:root:Train epoch 36, loss: 0.0020
+INFO:root:Valid epoch 36 loss:0.5304691791534424, acc: 0.7105263157894737, auroc: 0.7646526070643033
+INFO:root:Train epoch 37, loss: 0.0019
+INFO:root:Valid epoch 37 loss:0.5280143618583679, acc: 0.7315789473684211, auroc: 0.7638763100012939
+INFO:root:Train epoch 38, loss: 0.0019
+INFO:root:Valid epoch 38 loss:0.5273590683937073, acc: 0.7157894736842105, auroc: 0.7654289041273128
+INFO:root:Train epoch 39, loss: 0.0020
+INFO:root:Valid epoch 39 loss:0.5301123261451721, acc: 0.7210526315789474, auroc: 0.7669814982533316
+INFO:root:Train epoch 40, loss: 0.0019
+INFO:root:Valid epoch 40 loss:0.5363055467605591, acc: 0.7315789473684211, auroc: 0.7684047095355155
+INFO:root:Train epoch 41, loss: 0.0019
+INFO:root:Valid epoch 41 loss:0.5319955348968506, acc: 0.7263157894736842, auroc: 0.7708629835683789
+INFO:root:Train epoch 42, loss: 0.0019
+INFO:root:Valid epoch 42 loss:0.523199200630188, acc: 0.7157894736842105, auroc: 0.7717686634752232
+INFO:root:Train epoch 43, loss: 0.0019
+INFO:root:Valid epoch 43 loss:0.5173978209495544, acc: 0.7157894736842105, auroc: 0.7737094061327467
+INFO:root:Train epoch 44, loss: 0.0019
+INFO:root:Valid epoch 44 loss:0.5166502594947815, acc: 0.7210526315789474, auroc: 0.773580023288912
+INFO:root:Train epoch 45, loss: 0.0019
+INFO:root:Valid epoch 45 loss:0.5189589262008667, acc: 0.7157894736842105, auroc: 0.7752620002587656
+INFO:root:Train epoch 46, loss: 0.0019
+INFO:root:Valid epoch 46 loss:0.5153917074203491, acc: 0.7315789473684211, auroc: 0.7740975546642515
+INFO:root:Train epoch 47, loss: 0.0019
+INFO:root:Valid epoch 47 loss:0.5122866034507751, acc: 0.7157894736842105, auroc: 0.777590891447794
+INFO:root:Train epoch 48, loss: 0.0019
+INFO:root:Valid epoch 48 loss:0.5124440789222717, acc: 0.7157894736842105, auroc: 0.777590891447794
+INFO:root:Train epoch 49, loss: 0.0019
+INFO:root:Valid epoch 49 loss:0.507449209690094, acc: 0.7157894736842105, auroc: 0.7813429939190064
+INFO:root:Train epoch 50, loss: 0.0019
+INFO:root:Valid epoch 50 loss:0.5061405897140503, acc: 0.7157894736842105, auroc: 0.7817311424505111
+INFO:root:Train epoch 51, loss: 0.0019
+INFO:root:Valid epoch 51 loss:0.5055022835731506, acc: 0.7210526315789474, auroc: 0.7843187993272092
+INFO:root:Train epoch 52, loss: 0.0019
+INFO:root:Valid epoch 52 loss:0.5090672969818115, acc: 0.7210526315789474, auroc: 0.7789494113080605
+INFO:root:Train epoch 53, loss: 0.0018
+INFO:root:Valid epoch 53 loss:0.5058263540267944, acc: 0.7473684210526316, auroc: 0.7865183076724027
+INFO:root:Train epoch 54, loss: 0.0019
+INFO:root:Valid epoch 54 loss:0.5075321197509766, acc: 0.7105263157894737, auroc: 0.7862595419847329
+INFO:root:Train epoch 55, loss: 0.0019
+INFO:root:Valid epoch 55 loss:0.5051860809326172, acc: 0.7631578947368421, auroc: 0.7906585586751196
+INFO:root:Train epoch 56, loss: 0.0018
+INFO:root:Valid epoch 56 loss:0.5081712007522583, acc: 0.7105263157894737, auroc: 0.7865183076724026
+INFO:root:Train epoch 57, loss: 0.0018
+INFO:root:Valid epoch 57 loss:0.5000543594360352, acc: 0.7473684210526316, auroc: 0.7882002846422566
+INFO:root:Train epoch 58, loss: 0.0018
+INFO:root:Valid epoch 58 loss:0.5002682209014893, acc: 0.7526315789473684, auroc: 0.7901410272997801
+INFO:root:Train epoch 59, loss: 0.0018
+INFO:root:Valid epoch 59 loss:0.4988236129283905, acc: 0.7052631578947368, auroc: 0.7900116444559451
+INFO:root:Train epoch 60, loss: 0.0018
+INFO:root:Valid epoch 60 loss:0.49696075916290283, acc: 0.7421052631578947, auroc: 0.7931815241299004
+INFO:root:Train epoch 61, loss: 0.0018
+INFO:root:Valid epoch 61 loss:0.4985138773918152, acc: 0.7421052631578947, auroc: 0.7910467072066243
+INFO:root:Train epoch 62, loss: 0.0018
+INFO:root:Valid epoch 62 loss:0.49971804022789, acc: 0.7157894736842105, auroc: 0.792858067020313
+INFO:root:Train epoch 63, loss: 0.0018
+INFO:root:Valid epoch 63 loss:0.4956832826137543, acc: 0.7210526315789474, auroc: 0.7972570837106999
+INFO:root:Train epoch 64, loss: 0.0018
+INFO:root:Valid epoch 64 loss:0.4960620701313019, acc: 0.7526315789473684, auroc: 0.7989390606805538
+INFO:root:Train epoch 65, loss: 0.0018
+INFO:root:Valid epoch 65 loss:0.4954110383987427, acc: 0.7263157894736842, auroc: 0.7962220209600207
+INFO:root:Train epoch 66, loss: 0.0018
+INFO:root:Valid epoch 66 loss:0.4972896873950958, acc: 0.7578947368421053, auroc: 0.8003622719627378
+INFO:root:Train epoch 67, loss: 0.0018
+INFO:root:Valid epoch 67 loss:0.4959002733230591, acc: 0.7210526315789474, auroc: 0.7995859748997283
+INFO:root:Train epoch 68, loss: 0.0018
+INFO:root:Valid epoch 68 loss:0.4918716847896576, acc: 0.7526315789473684, auroc: 0.7988743692586363
+INFO:root:Train epoch 69, loss: 0.0018
+INFO:root:Valid epoch 69 loss:0.4894661009311676, acc: 0.7263157894736842, auroc: 0.7964160952257731
+INFO:root:Train epoch 70, loss: 0.0018
+INFO:root:Valid epoch 70 loss:0.49522101879119873, acc: 0.7263157894736842, auroc: 0.7996506663216457
+INFO:root:Train epoch 71, loss: 0.0018
+INFO:root:Valid epoch 71 loss:0.4958733916282654, acc: 0.7473684210526316, auroc: 0.794410661146332
+INFO:root:Train epoch 72, loss: 0.0018
+INFO:root:Valid epoch 72 loss:0.49719876050949097, acc: 0.7157894736842105, auroc: 0.8010738776038298
+INFO:root:Train epoch 73, loss: 0.0018
+INFO:root:Valid epoch 73 loss:0.49011313915252686, acc: 0.7631578947368421, auroc: 0.80055634622849
+INFO:root:Train epoch 74, loss: 0.0017
+INFO:root:Valid epoch 74 loss:0.4895181655883789, acc: 0.7315789473684211, auroc: 0.7957691810065985
+INFO:root:Train epoch 75, loss: 0.0017
+INFO:root:Valid epoch 75 loss:0.4892253577709198, acc: 0.7578947368421053, auroc: 0.797127700866865
+INFO:root:Train epoch 76, loss: 0.0017
+INFO:root:Valid epoch 76 loss:0.4878343939781189, acc: 0.7315789473684211, auroc: 0.8019795575106742
+INFO:root:Train epoch 77, loss: 0.0017
+INFO:root:Valid epoch 77 loss:0.48584631085395813, acc: 0.7315789473684211, auroc: 0.7988743692586363
+INFO:root:Train epoch 78, loss: 0.0017
+INFO:root:Valid epoch 78 loss:0.49118587374687195, acc: 0.7315789473684211, auroc: 0.8015914089791694
+INFO:root:Train epoch 79, loss: 0.0017
+INFO:root:Valid epoch 79 loss:0.4876360297203064, acc: 0.7473684210526316, auroc: 0.7988096778367189
+INFO:root:Train epoch 80, loss: 0.0017
+INFO:root:Valid epoch 80 loss:0.4866940677165985, acc: 0.7315789473684211, auroc: 0.8026264717298486
+INFO:root:Train epoch 81, loss: 0.0017
+INFO:root:Valid epoch 81 loss:0.4842780530452728, acc: 0.7315789473684211, auroc: 0.8043731401216199
+INFO:root:Train epoch 82, loss: 0.0017
+INFO:root:Valid epoch 82 loss:0.4838091731071472, acc: 0.7315789473684211, auroc: 0.8040496830120326
+INFO:root:Train epoch 83, loss: 0.0017
+INFO:root:Valid epoch 83 loss:0.4822825491428375, acc: 0.7263157894736842, auroc: 0.8076724026394101
+INFO:root:Train epoch 84, loss: 0.0017
+INFO:root:Valid epoch 84 loss:0.48556214570999146, acc: 0.7315789473684211, auroc: 0.8045672143873722
+INFO:root:Train epoch 85, loss: 0.0017
+INFO:root:Valid epoch 85 loss:0.48266172409057617, acc: 0.7315789473684211, auroc: 0.804243757277785
+INFO:root:Train epoch 86, loss: 0.0018
+INFO:root:Valid epoch 86 loss:0.4830686151981354, acc: 0.7263157894736842, auroc: 0.8000388148531505
+INFO:root:Train epoch 87, loss: 0.0017
+INFO:root:Valid epoch 87 loss:0.48322975635528564, acc: 0.7315789473684211, auroc: 0.8053435114503817
+INFO:root:Train epoch 88, loss: 0.0017
+INFO:root:Valid epoch 88 loss:0.4843181073665619, acc: 0.7473684210526316, auroc: 0.8040496830120326
+INFO:root:Train epoch 89, loss: 0.0017
+INFO:root:Valid epoch 89 loss:0.4937455356121063, acc: 0.7105263157894737, auroc: 0.8094837624530987
+INFO:root:Train epoch 90, loss: 0.0017
+INFO:root:Valid epoch 90 loss:0.48740968108177185, acc: 0.7526315789473684, auroc: 0.8040496830120326
+INFO:root:Train epoch 91, loss: 0.0017
+INFO:root:Valid epoch 91 loss:0.4803732633590698, acc: 0.7263157894736842, auroc: 0.8027558545736836
+INFO:root:Train epoch 92, loss: 0.0018
+INFO:root:Valid epoch 92 loss:0.4819568395614624, acc: 0.7315789473684211, auroc: 0.8040496830120326
+INFO:root:Train epoch 93, loss: 0.0018
+INFO:root:Valid epoch 93 loss:0.48447439074516296, acc: 0.7526315789473684, auroc: 0.803532151636693
+INFO:root:Train epoch 94, loss: 0.0017
+INFO:root:Valid epoch 94 loss:0.49924904108047485, acc: 0.7157894736842105, auroc: 0.8067667227325658
+INFO:root:Train epoch 95, loss: 0.0017
+INFO:root:Valid epoch 95 loss:0.5034216046333313, acc: 0.7368421052631579, auroc: 0.8004269633846552
+INFO:root:Train epoch 96, loss: 0.0017
+INFO:root:Valid epoch 96 loss:0.4894660413265228, acc: 0.7263157894736842, auroc: 0.8054728942942166
+INFO:root:Train epoch 97, loss: 0.0017
+INFO:root:Valid epoch 97 loss:0.4796901047229767, acc: 0.7157894736842105, auroc: 0.8080605511709147
+INFO:root:Train epoch 98, loss: 0.0018
+INFO:root:Valid epoch 98 loss:0.4865351915359497, acc: 0.7526315789473684, auroc: 0.8052141286065468
+INFO:root:Train epoch 99, loss: 0.0017
+INFO:root:Valid epoch 99 loss:0.4955756664276123, acc: 0.7210526315789474, auroc: 0.8054728942942166

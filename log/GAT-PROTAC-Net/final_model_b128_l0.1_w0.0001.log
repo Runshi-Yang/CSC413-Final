@@ -1,0 +1,42 @@
+INFO:root:all data: 949
+INFO:root:train data: 759
+INFO:root:test data: 190
+INFO:root:Train epoch 0, loss: 145092.6369, val_loss: 23959.8047, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 1, loss: 73713.9095, val_loss: 16403.5068, val_acc: 0.6789, val_auroc: 0.5622
+INFO:root:Train epoch 2, loss: 29346.0837, val_loss: 769687.6250, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 3, loss: 162360.3634, val_loss: 52256.2441, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 4, loss: 253884.5361, val_loss: 100883.1836, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 5, loss: 171129.1117, val_loss: 146944.7656, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 6, loss: 292435.3263, val_loss: 114787.4062, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 7, loss: 170665.0749, val_loss: 77026.1445, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 8, loss: 302883.2462, val_loss: 196464.5547, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 9, loss: 466648.4583, val_loss: 3028218.5000, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 10, loss: 772772.5967, val_loss: 73725.9180, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 11, loss: 249620.6940, val_loss: 352972.6250, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 12, loss: 265615.6003, val_loss: 171626.6875, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 13, loss: 358008.3854, val_loss: 94465.8477, val_acc: 0.7000, val_auroc: 0.5169
+INFO:root:Train epoch 14, loss: 368311.3887, val_loss: 765510.9062, val_acc: 0.3105, val_auroc: 0.5000
+INFO:root:Train epoch 15, loss: 233690.5137, val_loss: 161709.7734, val_acc: 0.3105, val_auroc: 0.5000
+INFO:root:Train epoch 16, loss: 220270.2279, val_loss: 7219.7847, val_acc: 0.3105, val_auroc: 0.5000
+INFO:root:Train epoch 17, loss: 79871.2657, val_loss: 134052.6016, val_acc: 0.6947, val_auroc: 0.5085
+INFO:root:Train epoch 18, loss: 101369.1322, val_loss: 30563.7041, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 19, loss: 148634.0942, val_loss: 51524.3164, val_acc: 0.6842, val_auroc: 0.5195
+INFO:root:Train epoch 20, loss: 28370.8377, val_loss: 49721.0703, val_acc: 0.3105, val_auroc: 0.3929
+INFO:root:Train epoch 21, loss: 54771.6961, val_loss: 48291.7910, val_acc: 0.6632, val_auroc: 0.5880
+INFO:root:Train epoch 22, loss: 54772.8662, val_loss: 67481.8359, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 23, loss: 440981.9845, val_loss: 1603825.8750, val_acc: 0.3158, val_auroc: 0.5038
+INFO:root:Train epoch 24, loss: 3792575.3307, val_loss: 20843.2852, val_acc: 0.3105, val_auroc: 0.5000
+INFO:root:Train epoch 25, loss: 298898.8893, val_loss: 98442.3789, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 26, loss: 300356.6836, val_loss: 131100.5547, val_acc: 0.5632, val_auroc: 0.5668
+INFO:root:Train epoch 27, loss: 3504727.3242, val_loss: 5143194.0000, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 28, loss: 23674150.0417, val_loss: 4235618.6250, val_acc: 0.6579, val_auroc: 0.5749
+INFO:root:Train epoch 29, loss: 5958859.5208, val_loss: 1341380.3125, val_acc: 0.6000, val_auroc: 0.5935
+INFO:root:Train epoch 30, loss: 9839882.2917, val_loss: 3744099.1250, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 31, loss: 5720827.1250, val_loss: 2230762.3750, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 32, loss: 2001530.4583, val_loss: 1533430.6250, val_acc: 0.6895, val_auroc: 0.5047
+INFO:root:Train epoch 33, loss: 1760503.6354, val_loss: 4186475.2500, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 34, loss: 3608309.0260, val_loss: 1913896.9375, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 35, loss: 7803451.0208, val_loss: 3259046.0000, val_acc: 0.6895, val_auroc: 0.5000
+INFO:root:Train epoch 36, loss: 8083999.2500, val_loss: 636491.9062, val_acc: 0.7105, val_auroc: 0.5432
+INFO:root:Validation loss has not improved in 20 epochs, stopping early
+INFO:root:Obtained lowest validation loss of: 7219.78466796875
