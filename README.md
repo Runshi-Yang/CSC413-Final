@@ -12,3 +12,5 @@ In this repository, you will find the following notebooks corresponding to the d
 - [GAT-PROTAC-Net.ipynb](https://github.com/Runshi-Yang/CSC413-Final-Project/blob/main/GAT-PROTAC-Net.ipynb): This notebook contains the implementation of the GAT-PROTAC-Net which import [`model_Evianne2.py`](https://github.com/Runshi-Yang/CSC413-Final-Project/blob/main/model_Evianne2.py).
 - [GAT-PROTAC-Net-hyperparameter-optimization.ipynb](https://github.com/Runshi-Yang/CSC413-Final-Project/blob/main/GAT-PROTAC-Net-hyperparameter-optimization.ipynb): This notebook contains the implementation of hyperparameter optimization of the GAT-PROTAC-Net.
 - [GAT-PROTAC-Net-over-sampling.ipynb](https://github.com/Runshi-Yang/CSC413-Final-Project/blob/main/GAT-PROTAC-Net-over-sampling.ipynb): This notebook contains the implementation of the over-sampling studies for GAT-PROTAC-Net.
+
+The report can be read and downloaded [here](https://github.com/Runshi-Yang/CSC413-Final-Project/blob/main/report.pdf)
